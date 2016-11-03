@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="在线版" description="在线版" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\win10launch\360browser\360se6\Application\360se.exe" />
+      <option name="PARAMETERS" value=" -a  http://www.php.net/zh/function.$SelectedText$.php" />
+      <option name="WORKING_DIRECTORY" value="D:/win10launch/360browser/360se6/Application" />
+    </exec>
+  </tool>
+  <tool name="离线版" description="离线版" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="KeyHH" />
+      <option name="PARAMETERS" value="-#klink $SelectedText$ D:\workspace\phpspace\doc\php_enhanced_zh.chm" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
